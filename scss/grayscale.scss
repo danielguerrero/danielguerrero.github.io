@@ -199,7 +199,17 @@ a {
 
 .download-section {
   color: white;
-  background: url('../img/cms.jpg') no-repeat center center scroll;
+  background: url('../img/cms.jpg') no-repeat scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.download2-section {
+  color: white;
+  background: url('../img/fermilab.jpg') no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;

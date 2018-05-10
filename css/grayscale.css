@@ -26,7 +26,7 @@ h6 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   margin: 0 0 25px;
 }
@@ -60,7 +60,7 @@ a:focus, a:hover {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 14px;
+  font-size: 50px;
   padding: 11px;
   color: white;
   border: 1px solid white;
@@ -68,6 +68,7 @@ a:focus, a:hover {
 
 #mainNav .navbar-brand {
   font-weight: 700;
+    font-size: 25px;  
 }
 
 #mainNav a {
@@ -81,7 +82,7 @@ a:focus, a:hover {
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: fade(white, 8%);
   outline: none;
   background-color: transparent;
 }
@@ -93,18 +94,19 @@ a:focus, a:hover {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
     -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
     transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
     letter-spacing: 1px;
     border-bottom: none;
-    background: transparent;
+    background: black;
   }
   #mainNav.navbar-shrink {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     background: black;
   }
@@ -121,7 +123,7 @@ a:focus, a:hover {
   display: table;
   width: 100%;
   height: auto;
-  padding: 200px 0;
+  padding: 100px 0;
   text-align: center;
   color: white;
   background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
@@ -138,11 +140,11 @@ a:focus, a:hover {
 }
 
 .masthead .intro-body .brand-heading {
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .masthead .intro-body .intro-text {
-  font-size: 18px;
+  font-size: 50px;
 }
 
 @media (min-width: 768px) {
@@ -154,7 +156,7 @@ a:focus, a:hover {
     font-size: 100px;
   }
   .masthead .intro-body .intro-text {
-    font-size: 22px;
+    font-size: 32px;
   }
 }
 
@@ -162,7 +164,7 @@ a:focus, a:hover {
   font-size: 26px;
   width: 55px;
   height: 55px;
-  margin-top: 15px;
+  margin-top: 5px;
   line-height: 45px;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -180,13 +182,23 @@ a:focus, a:hover {
 }
 
 .content-section {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/cms.jpg") no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.download2-section {
+  color: white;
+  background: url("../img/fermilab.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
